@@ -1,0 +1,50 @@
+# Global plot settings
+global:
+  dpi: 450
+  figure_size: [10, 6]
+  font_family: "Arial"
+  output_format: "pdf"
+  grid: True
+  version: "1.0"
+
+# Color schemes
+colors:
+  series_colormap: "turbo"  # Using turbo colormap (modern jet replacement)
+  archetype_palette: "Set2"
+  task_type_palette: "Paired"
+  highlight:
+    good: "#2ecc71"  # Green
+    neutral: "#3498db"  # Blue
+    bad: "#e74c3c"  # Red
+  
+  sentiment:
+    humor: "#ff7f0e"
+    sarcasm: "#d62728"
+    awkwardness: "#9467bd"
+    joy: "#2ca02c"
+    
+  # Figure 2 specific colors
+  position:
+    first: "#f4d03f"   # Mustard yellow
+    middle: "#e67e22"  # Orange
+    last: "#c0392b"    # Deep red
+  
+  # Pattern colors
+  pattern:
+    rising: "#3498db"     # Blue (123)
+    j_shaped: "#9b59b6"   # Purple (213) 
+    improving: "#2ecc71"  # Green (321)
+    others: "#95a5a6"     # Gray
+
+# Text settings
+fonts:
+  title_size: 16
+  axis_label_size: 12
+  tick_label_size: 10
+  legend_size: 10
+
+# Line and marker styles
+styles:
+  line_width: 1.5
+  marker_size: 6
+  markers: ["o", "s", "^", "d", "P", "*"] 
